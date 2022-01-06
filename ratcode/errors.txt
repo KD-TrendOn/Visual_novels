@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 84: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation.
+    wo 'А ты неплохо справляешься, новичек'
+    ^
+
+File "game/script.rpy", line 87: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation.
+    wo 'Все все, постой трудяга, ты кажется перестарался, пойдем я перевяжу твой палец.'
+    ^
+
+Ren'Py Version: Ren'Py 7.4.9.2142
+Wed Nov  3 14:15:17 2021

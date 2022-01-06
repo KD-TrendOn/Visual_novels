@@ -1,0 +1,32 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 130, in script
+    play musik lose
+  File "renpy/common/000statements.rpy", line 129, in execute_play_music
+    relative_volume=eval(p.get("volume", "1.0")))
+Exception: Audio channel u'musik' is unknown.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 130, in script
+    play musik lose
+  File "renpy/ast.py", line 2015, in execute
+    self.call("execute")
+  File "renpy/ast.py", line 2003, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "renpy/statements.py", line 278, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 129, in execute_play_music
+    relative_volume=eval(p.get("volume", "1.0")))
+  File "renpy/audio/music.py", line 98, in play
+    c = get_channel(channel)
+  File "renpy/audio/audio.py", line 912, in get_channel
+    raise Exception("Audio channel %r is unknown." % name)
+Exception: Audio channel u'musik' is unknown.
+
+Windows-7-6.1.7601-SP1
+Ren'Py 7.4.9.2142
+Рататуй: Приключение в Париже 1.0
+Thu Nov  4 09:51:50 2021

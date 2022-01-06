@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 88: expected end of line
+    stop music nrom
+               ^
+
+Ren'Py Version: Ren'Py 7.4.10.2178
+Thu Nov  4 16:10:43 2021
